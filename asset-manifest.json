@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/ricknmorty/static/css/main.8c8b27cf.chunk.css",
+    "main.js": "/ricknmorty/static/js/main.14b43389.chunk.js",
+    "main.js.map": "/ricknmorty/static/js/main.14b43389.chunk.js.map",
+    "runtime-main.js": "/ricknmorty/static/js/runtime-main.52fa3782.js",
+    "runtime-main.js.map": "/ricknmorty/static/js/runtime-main.52fa3782.js.map",
+    "static/js/2.152b8c76.chunk.js": "/ricknmorty/static/js/2.152b8c76.chunk.js",
+    "static/js/2.152b8c76.chunk.js.map": "/ricknmorty/static/js/2.152b8c76.chunk.js.map",
+    "static/js/3.783961f9.chunk.js": "/ricknmorty/static/js/3.783961f9.chunk.js",
+    "static/js/3.783961f9.chunk.js.map": "/ricknmorty/static/js/3.783961f9.chunk.js.map",
+    "index.html": "/ricknmorty/index.html",
+    "static/css/main.8c8b27cf.chunk.css.map": "/ricknmorty/static/css/main.8c8b27cf.chunk.css.map",
+    "static/js/2.152b8c76.chunk.js.LICENSE.txt": "/ricknmorty/static/js/2.152b8c76.chunk.js.LICENSE.txt",
+    "static/media/logo.6ce24c58.svg": "/ricknmorty/static/media/logo.6ce24c58.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.52fa3782.js",
+    "static/js/2.152b8c76.chunk.js",
+    "static/css/main.8c8b27cf.chunk.css",
+    "static/js/main.14b43389.chunk.js"
+  ]
+}
