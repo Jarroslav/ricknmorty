@@ -1,0 +1,26 @@
+.pagination {
+  display: flex;
+  width: fit-content;
+  justify-content: center;
+  margin: 0 auto 20px;
+  padding: 0;
+  list-style: none;
+}
+
+.pagination-item {
+  padding: 5px 10px;
+  border: 1px solid rgba(0, 0, 0, .12);
+  border-right: none;
+  color: #232f34;
+  background: #59676e;
+  cursor: pointer;
+}
+
+.pagination-item.active {
+  background: #71828a;
+  color: #fff;
+}
+
+.pagination-item:last-child {
+  border-right: 1px solid rgba(0, 0, 0, .12);
+}

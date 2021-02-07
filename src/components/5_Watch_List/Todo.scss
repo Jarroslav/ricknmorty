@@ -1,0 +1,48 @@
+.watchlist-form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.watchlist-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  &__text {
+    width: 500px;
+    padding: 10px;
+    margin: 10px 8px;
+    font-weight: 700;
+    border: 1px solid rgba(0,0,0,.12);
+    border-radius: 15px;
+    color: #232f34;
+  }
+
+  &__delete-button {
+    width: 40px;
+    min-height: 30px;
+    font-weight: 700;
+    margin: 10px 8px;
+    border: 1px solid rgba(0,0,0,.12);
+    border-radius: 10px;
+    background: #f94a33;
+    color: #232f34;
+    cursor: pointer;
+  }
+
+  &__checkbox {
+    width: 25px;
+    min-height: 25px;
+    font-weight: 700;
+    //margin: 10px 8px;
+    border: 1px solid rgba(0,0,0,.12);
+    background: #f94a33;
+    color: #232f34;
+    cursor: pointer;
+  }
+}
+
+
+

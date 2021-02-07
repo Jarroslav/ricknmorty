@@ -1,0 +1,13 @@
+.locations {
+    display: flex;
+    max-width: 900px;
+    margin: 0 auto 30px;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.locations-table, .locations-thead, .locations-tbody, tr, td, th {
+    color: #b8b8b8;
+    border: 1px solid rgb(95, 95, 95);
+}
