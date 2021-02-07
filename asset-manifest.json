@@ -1,23 +1,15 @@
 {
-  "files": {
-    "main.css": "/ricknmorty/static/css/main.8c8b27cf.chunk.css",
-    "main.js": "/ricknmorty/static/js/main.14b43389.chunk.js",
-    "main.js.map": "/ricknmorty/static/js/main.14b43389.chunk.js.map",
-    "runtime-main.js": "/ricknmorty/static/js/runtime-main.52fa3782.js",
-    "runtime-main.js.map": "/ricknmorty/static/js/runtime-main.52fa3782.js.map",
-    "static/js/2.152b8c76.chunk.js": "/ricknmorty/static/js/2.152b8c76.chunk.js",
-    "static/js/2.152b8c76.chunk.js.map": "/ricknmorty/static/js/2.152b8c76.chunk.js.map",
-    "static/js/3.783961f9.chunk.js": "/ricknmorty/static/js/3.783961f9.chunk.js",
-    "static/js/3.783961f9.chunk.js.map": "/ricknmorty/static/js/3.783961f9.chunk.js.map",
-    "index.html": "/ricknmorty/index.html",
-    "static/css/main.8c8b27cf.chunk.css.map": "/ricknmorty/static/css/main.8c8b27cf.chunk.css.map",
-    "static/js/2.152b8c76.chunk.js.LICENSE.txt": "/ricknmorty/static/js/2.152b8c76.chunk.js.LICENSE.txt",
-    "static/media/logo.6ce24c58.svg": "/ricknmorty/static/media/logo.6ce24c58.svg"
-  },
-  "entrypoints": [
-    "static/js/runtime-main.52fa3782.js",
-    "static/js/2.152b8c76.chunk.js",
-    "static/css/main.8c8b27cf.chunk.css",
-    "static/js/main.14b43389.chunk.js"
-  ]
+  "main.css": "/ricknmorty/static/css/main.6defe957.chunk.css",
+  "main.js": "/ricknmorty/static/js/main.8cf79f34.chunk.js",
+  "main.js.map": "/ricknmorty/static/js/main.8cf79f34.chunk.js.map",
+  "runtime~main.js": "/ricknmorty/static/js/runtime~main.de89aeb3.js",
+  "runtime~main.js.map": "/ricknmorty/static/js/runtime~main.de89aeb3.js.map",
+  "static/js/2.4b8ee14e.chunk.js": "/ricknmorty/static/js/2.4b8ee14e.chunk.js",
+  "static/js/2.4b8ee14e.chunk.js.map": "/ricknmorty/static/js/2.4b8ee14e.chunk.js.map",
+  "index.html": "/ricknmorty/index.html",
+  "precache-manifest.0a0205e3d9480765cd289facdc3e0342.js": "/ricknmorty/precache-manifest.0a0205e3d9480765cd289facdc3e0342.js",
+  "service-worker.js": "/ricknmorty/service-worker.js",
+  "static/css/main.6defe957.chunk.css.map": "/ricknmorty/static/css/main.6defe957.chunk.css.map",
+  "static/media/Home.scss": "/ricknmorty/static/media/rickandmorty2.825488f7.png",
+  "static/media/spinner.svg": "/ricknmorty/static/media/spinner.41044daa.svg"
 }
