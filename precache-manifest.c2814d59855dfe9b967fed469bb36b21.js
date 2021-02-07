@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "262a0e470944eb3a5c9b",
-    "url": "/ricknmorty/static/css/main.6defe957.chunk.css"
+    "revision": "64412d0bb0ab6c237a71",
+    "url": "/ricknmorty/static/css/main.daa24b0c.chunk.css"
   },
   {
-    "revision": "262a0e470944eb3a5c9b",
-    "url": "/ricknmorty/static/js/main.8cf79f34.chunk.js"
+    "revision": "64412d0bb0ab6c237a71",
+    "url": "/ricknmorty/static/js/main.fab0523f.chunk.js"
   },
   {
     "revision": "8cee2e5c07d0ad621fec",
@@ -20,11 +20,11 @@ self.__precacheManifest = [
     "url": "/ricknmorty/static/media/spinner.41044daa.svg"
   },
   {
-    "revision": "825488f7859acb3fac46bae10607618a",
-    "url": "/ricknmorty/static/media/rickandmorty2.825488f7.png"
+    "revision": "8007e0eb64443bad72f403b9afe015af",
+    "url": "/ricknmorty/static/media/Rick-And-Morty-PNG-Images.8007e0eb.png"
   },
   {
-    "revision": "a5ce10401f9c303f4a7afce33c3986f7",
+    "revision": "17aace2417bfcfda7f3b6e4b2c8c7d9c",
     "url": "/ricknmorty/index.html"
   }
 ];
