@@ -1,15 +1,15 @@
 {
-  "main.css": "/ricknmorty/static/css/main.daa24b0c.chunk.css",
-  "main.js": "/ricknmorty/static/js/main.fab0523f.chunk.js",
-  "main.js.map": "/ricknmorty/static/js/main.fab0523f.chunk.js.map",
+  "main.css": "/ricknmorty/static/css/main.9e8fda52.chunk.css",
+  "main.js": "/ricknmorty/static/js/main.607f7d46.chunk.js",
+  "main.js.map": "/ricknmorty/static/js/main.607f7d46.chunk.js.map",
   "runtime~main.js": "/ricknmorty/static/js/runtime~main.de89aeb3.js",
   "runtime~main.js.map": "/ricknmorty/static/js/runtime~main.de89aeb3.js.map",
   "static/js/2.4b8ee14e.chunk.js": "/ricknmorty/static/js/2.4b8ee14e.chunk.js",
   "static/js/2.4b8ee14e.chunk.js.map": "/ricknmorty/static/js/2.4b8ee14e.chunk.js.map",
   "index.html": "/ricknmorty/index.html",
-  "precache-manifest.c2814d59855dfe9b967fed469bb36b21.js": "/ricknmorty/precache-manifest.c2814d59855dfe9b967fed469bb36b21.js",
+  "precache-manifest.f77f19bccdcc41d73f39b959d0cc8d3c.js": "/ricknmorty/precache-manifest.f77f19bccdcc41d73f39b959d0cc8d3c.js",
   "service-worker.js": "/ricknmorty/service-worker.js",
-  "static/css/main.daa24b0c.chunk.css.map": "/ricknmorty/static/css/main.daa24b0c.chunk.css.map",
+  "static/css/main.9e8fda52.chunk.css.map": "/ricknmorty/static/css/main.9e8fda52.chunk.css.map",
   "static/media/Home.scss": "/ricknmorty/static/media/Rick-And-Morty-PNG-Images.8007e0eb.png",
-  "static/media/spinner.svg": "/ricknmorty/static/media/spinner.41044daa.svg"
+  "static/media/spinner.svg": "/ricknmorty/static/media/spinner.9aa11ce9.svg"
 }
