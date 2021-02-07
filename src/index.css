@@ -5,11 +5,15 @@ body {
   sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background: #162126;
+  background: #2a2740;
   color: #cfcdcd;
   letter-spacing: 0.05em;
 }
 
 ul {
   list-style: none;
+}
+
+input, select {
+  background: #cfcbcb;
 }

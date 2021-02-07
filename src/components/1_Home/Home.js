@@ -6,7 +6,7 @@ const Home = () => {
   return (
     <div className="home-container">
       <div className="home-title">
-        <h1>Hi! This is my Rick & Morty React App</h1>
+        <h1>Meet Rick and Morty</h1>
       </div>
     </div>
   );
