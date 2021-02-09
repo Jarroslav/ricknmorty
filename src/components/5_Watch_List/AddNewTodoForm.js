@@ -52,7 +52,7 @@ const AddNewTodoForm = ({ onAddTodo, customError }) => {
                 />
                 <button type="submit" className="filter-submit">Add</button>
             </form>
-            {error && <span>{error}</span>}
+            {error && <span className="watchlist-form__error">{error}</span>}
         </>
     )
 };

@@ -46,3 +46,27 @@
   color: #232f34;
   cursor: pointer;
 }
+
+
+@media (max-width: 899px) {
+  .filter-form {
+    margin: 80px 0 20px 0;
+  }
+}
+
+@media (max-width: 516px) {
+  .filter-form {
+    margin: 120px 0 20px 0;
+  }
+}
+@media (max-width: 369px) {
+  .filter-form {
+    margin: 200px 0 20px 0;
+  }
+}
+
+@media (max-width: 311px) {
+  .filter-form {
+    margin: 250px 0 20px 0;
+  }
+}

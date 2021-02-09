@@ -19,7 +19,7 @@ class CharacterModal extends React.Component {
                     <div className="modal__right">
                         <p>I starred in: <span>{formattedActingInEpisodes}</span>{episodesLength()}.</p>
                         <div>
-                            <button onClick={this.props.closePopup}>close me</button>
+                            <button className="modal__close-button" onClick={this.props.closePopup}>close me</button>
                         </div>
                     </div>
                 </div>

@@ -1,7 +1,7 @@
 .modal {
   width: 100vw;
   height: 100vh;
-  background: #2a2740;
+  background: #1b7272;
   position: fixed;
   top: 0;
   left: 0;
@@ -19,7 +19,7 @@
     width: 900px;
     height: 500px;
     border-radius: 30px 30px 30px;
-    background: #2a3f47;
+    background: #174c60;
   }
 
   &__left, &__right {
@@ -34,8 +34,49 @@
   &__image {
     border-radius: 10px;
   }
+
+  &__close-button {
+    font-family: "Schwiffy";
+    width: 90px;
+    min-height: 40px;
+    font-weight: 700;
+    margin: 10px 8px;
+    border: 1px solid rgba(0,0,0,.12);
+    border-radius: 15px;
+    background: #f9aa33;
+    color: #232f34;
+    cursor: pointer;
+    transition: 0.3s ease;
+
+    &:hover {
+      background-color: #f94a33;
+    }
+  }
 }
 
 .popup {
   cursor: pointer;
+}
+
+@media (max-width: 899px) {
+  .modal {
+    &__content {
+      width: 600px;
+      height: 300px;
+    }
+
+    &__image {
+      width: 150px;
+      height: 150px;
+    }
+  }
+}
+
+@media (max-width: 369px) {
+  .modal {
+    align-items: flex-end;
+    &__content {
+      height: 440px;
+    }
+  }
 }

@@ -3,6 +3,12 @@
   justify-content: center;
   align-items: center;
   margin-top: 30px;
+
+  &__error {
+    display: block;
+    text-align: center;
+    color: #ef9292;
+  }
 }
 
 .watchlist-item {
@@ -43,6 +49,9 @@
     color: #232f34;
     cursor: pointer;
   }
+}
+.filter-search {
+  font-family: "Schwiffy";
 }
 
 
