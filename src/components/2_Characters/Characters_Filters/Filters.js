@@ -1,6 +1,6 @@
 import React from "react";
 
-import "./Filters.scss";
+import "../../Filters.scss";
 
 const Filters = props => {
   return (
@@ -19,7 +19,8 @@ const Filters = props => {
         onChange={props.handleChange}
         defaultValue={props.genderValue}
       >
-        <option value="">All</option>
+        <option value="" disabled defaultValue>Filter by gender</option>
+        <option value="">all</option>
         <option value="female">female</option>
         <option value="male">male</option>
         <option value="genderless">genderless</option>
@@ -31,7 +32,8 @@ const Filters = props => {
         onChange={props.handleChange}
         defaultValue={props.speciesValue}
       >
-        <option value="">All</option>
+          <option value="" disabled defaultValue>Filter by species</option>
+          <option value="">all</option>
         <option value="human">human</option>
         <option value="alien">alien</option>
       </select>
@@ -41,7 +43,8 @@ const Filters = props => {
         onChange={props.handleChange}
         defaultValue={props.statusValue}
       >
-        <option value="">All</option>
+          <option value="" disabled defaultValue>Filter by status</option>
+          <option value="">all</option>
         <option value="alive">alive</option>
         <option value="dead">dead</option>
         <option value="unknown">unknown</option>

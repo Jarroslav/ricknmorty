@@ -3,24 +3,36 @@
   justify-content: center;
   flex-wrap: wrap;
   margin: 20px 0;
+
+  .filter-search,
+  .filter-select,
+  .filter-submit {
+    font-family: "Schwiffy";
+  }
+
+  .filter-search::placeholder,
+  .filter-select {
+    color: #757682;
+  }
 }
 
 .filter-search {
+  font-size: 16px;
   width: 250px;
   padding: 10px;
   margin: 10px 8px;
   font-weight: 700;
   border: 1px solid rgba(0,0,0,.12);
   border-radius: 15px;
-  color: #232f34;
+  color: #000;
 }
 
 .filter-select {
+  font-size: 16px;
   padding: 10px 10px 10px 25px;
   margin: 10px 8px;
   border: 1px solid rgba(0,0,0,.12);
   border-radius: 15px;
-  color: #232f34;
 }
 
 .filter-submit {

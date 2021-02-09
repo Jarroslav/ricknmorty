@@ -1,3 +1,8 @@
+@font-face {
+  font-family: "Schwiffy";
+  src: url("components/1_Home/get_schwifty.ttf");
+}
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
@@ -5,7 +10,7 @@ body {
   sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background: #2a2740;
+  background: #1b7272;
   color: #cfcdcd;
   letter-spacing: 0.05em;
 }

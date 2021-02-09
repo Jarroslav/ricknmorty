@@ -8,16 +8,17 @@
 }
 
 .pagination-item {
+  font-family: "Schwiffy";
   padding: 5px 10px;
   border: 1px solid rgba(0, 0, 0, .12);
   border-right: none;
   color: #232f34;
-  background: #59676e;
+  background: #886322;
   cursor: pointer;
 }
 
 .pagination-item.active {
-  background: #71828a;
+  background: #dd992e;
   color: #fff;
 }
 

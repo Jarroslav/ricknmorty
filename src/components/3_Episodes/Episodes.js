@@ -8,7 +8,7 @@ import { Pagination } from "../Pagination";
 
 import { Loader } from "../Loader";
 
-import "./Episodes.scss";
+import "../Tables.scss";
 
 
 class Episodes extends Component {
@@ -26,7 +26,6 @@ class Episodes extends Component {
 
   async componentDidMount() {
     const list = await getEpisodes();
-    // const slicedListResults = Array.prototype.slice.call(list.results, 0);
 
     this.setState({
       episodes: list.results,
@@ -45,7 +44,6 @@ class Episodes extends Component {
       },
       async () => {
         const list = await this.fetchEpisodes();
-        // const slicedListResults = Array.prototype.slice.call(list.results, 0);
         
         this.setState({
           episodes: list.results,
@@ -72,7 +70,6 @@ class Episodes extends Component {
       },
       async () => {
         const list = await this.fetchEpisodes();
-        // const slicedListResults = Array.prototype.slice.call(list.results, 0);
 
         this.setState({
           episodes: list.results,

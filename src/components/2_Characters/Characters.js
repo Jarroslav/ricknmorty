@@ -13,26 +13,30 @@ import { Loader } from "../Loader";
 import "./Characters.scss";
 
 class Characters extends Component {
-  state = {
-    id: "",
-    name: "",
-    gender: "",
-    species: "",
-    status: "",
-    origins: {name: "", url: ""},
-    locations: {name: "", url: ""},
-    episode: [],
-    characters: [],
-    page: 1,
-    isLoaded: false
-  };
+  constructor(props) {
+    super(props);
+
+    this.state = {
+      id: "",
+      name: "",
+      gender: "",
+      species: "",
+      status: "",
+      origins: {name: "", url: ""},
+      locations: {name: "", url: ""},
+      episode: [],
+      characters: [],
+      page: 1,
+      isLoaded: false,
+      closePopup: false
+    };
+  }
 
   async componentDidMount() {
     const list = await getCharacters();
-    const slicedListResults = Array.prototype.slice.call(list.results, 0);
 
     this.setState({
-      characters: slicedListResults,
+      characters: list.results,
       pages: list.info.pages,
       isLoaded: true
     });
@@ -48,10 +52,9 @@ class Characters extends Component {
       },
       async () => {
         const list = await this.fetchCharacters();
-        const slicedListResults = Array.prototype.slice.call(list.results, 0);
         
         this.setState({
-          characters: slicedListResults,
+          characters: list.results,
           pages: list.info.pages,
           isLoaded: true
         });
@@ -75,10 +78,9 @@ class Characters extends Component {
       },
       async () => {
         const list = await this.fetchCharacters();
-        const slicedListResults = Array.prototype.slice.call(list.results, 0);
 
         this.setState({
-          characters: slicedListResults,
+          characters: list.results,
           pages: list.info.pages,
           isLoaded: true
         });
@@ -166,19 +168,19 @@ class Characters extends Component {
           <div className="characters characters-background">
             {characters.map(character => (
               <Character
-                id={character.id}
-                key={character.id}
-                character={character}
-                imageSrc={character.image}
-                name={character.name}
-                species={character.species}
-                gender={character.gender}
-                status={character.status}
-                originName={character.origin.name}
-                originUrl={character.origin.url}
-                locationName={character.location.name}
-                locationUrl={character.location.url}
-                episode={character.episode}
+                  id={character.id}
+                  key={character.id}
+                  character={character}
+                  imageSrc={character.image}
+                  name={character.name}
+                  species={character.species}
+                  gender={character.gender}
+                  status={character.status}
+                  originName={character.origin.name}
+                  originUrl={character.origin.url}
+                  locationName={character.location.name}
+                  locationUrl={character.location.url}
+                  episode={character.episode}
               />
             ))}
           </div>

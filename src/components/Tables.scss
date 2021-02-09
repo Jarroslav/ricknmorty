@@ -1,0 +1,23 @@
+.locations,
+.episodes {
+    display: flex;
+    max-width: 900px;
+    margin: 0 auto 30px;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.locations-table,
+.locations-thead,
+.locations-tbody,
+.episodes-table,
+.episodes-thead,
+.episodes-tbody,
+tr, td, th {
+    color: #b8b8b8;
+    border: 1px solid #242424;
+}
+th, td {
+    padding: 5px;
+}

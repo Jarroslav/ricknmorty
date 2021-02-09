@@ -8,7 +8,7 @@ import { Pagination } from "../Pagination";
 
 import { Loader } from "../Loader";
 
-import "./Locations.scss";
+import "../Tables.scss";
 
 
 class Locations extends Component {
@@ -27,7 +27,6 @@ class Locations extends Component {
 
   async componentDidMount() {
     const list = await getLocations();
-    // const slicedListResults = Array.prototype.slice.call(list.results, 0);
 
     this.setState({
       locations: list.results,
@@ -46,7 +45,6 @@ class Locations extends Component {
       },
       async () => {
         const list = await this.fetchLocations();
-        // const slicedListResults = Array.prototype.slice.call(list.results, 0);
         
         this.setState({
           locations: list.results,
@@ -73,7 +71,6 @@ class Locations extends Component {
       },
       async () => {
         const list = await this.fetchLocations();
-        // const slicedListResults = Array.prototype.slice.call(list.results, 0);
 
         this.setState({
           locations: list.results,
@@ -121,7 +118,7 @@ class Locations extends Component {
             <table className="locations-table">
               <thead className="locations-thead">
                   <tr>
-                    <th colSpan="5">Episodes:</th>
+                    <th colSpan="5">Locations:</th>
                   </tr>
                   <tr>
                     <th>Number:</th>

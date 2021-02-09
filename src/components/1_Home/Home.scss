@@ -1,14 +1,21 @@
+
+
 .home-container {
   height: calc(100vh - 83px);
-  background: url(../../images/Rick-And-Morty-PNG-Images.png) no-repeat center;
+  background: url(../../images/rick-and-morty-wallpaper-portal-wallpaper-013.jpg) no-repeat center 50px;
   background-size: cover;
 }
 
 .home-title {
-  text-align: center;
-  margin-top: 30px;
+  text-align: left;
+  margin: 30px auto auto 40px;
 }
 
 .home-title h1 {
-  color: #fafafa;
+  font-family: "Schwiffy";
+  color: #168a99;
+  max-width: 400px;
+  font-size: 70px;
+  -webkit-text-stroke: .05px #000000;
+  text-shadow: 1px 1px 2px #ffffff;
 }

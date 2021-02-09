@@ -27,7 +27,6 @@ const getPaginationArray = (current, total) => {
 
 const Pagination = props => {
   const paginationArray = getPaginationArray(props.currentPage, props.pages);
-
   return (
     <ul onClick={props.handleClick} className="pagination">
       {paginationArray.map(pageNumber => (

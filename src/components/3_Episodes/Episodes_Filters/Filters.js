@@ -1,6 +1,6 @@
 import React from "react";
 
-import "./Filters.scss";
+import "../../Filters.scss";
 
 const Filters = props => {
   return (

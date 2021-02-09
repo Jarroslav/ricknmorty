@@ -41,4 +41,4 @@ const getLocations = (objAttributes, url = URLS.locations + '/?') => {
   return data;
 };
 
-export { URLS, getCharacters, getEpisodes, getLocations };
+export { getCharacters, getEpisodes, getLocations };
