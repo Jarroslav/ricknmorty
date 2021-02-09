@@ -1,7 +1,7 @@
 .watchlist-form {
   display: flex;
   justify-content: center;
-  align-items: center;
+  //align-items: center;
   margin-top: 30px;
 
   &__error {
@@ -9,8 +9,14 @@
     text-align: center;
     color: #ef9292;
   }
+  .filter-submit {
+    min-height: 40px;
+    max-height: 45px;
+  }
 }
-
+.watchlist-list {
+  padding: 0;
+}
 .watchlist-item {
   display: flex;
   justify-content: center;
@@ -54,5 +60,27 @@
   font-family: "Schwiffy";
 }
 
+@media (max-width: 899px) {
+  .watchlist-form {
+    margin-top: 80px;
+  }
+}
+
+@media (max-width: 516px) {
+  .watchlist-form{
+    margin-top: 120px;
+  }
+}
+@media (max-width: 369px) {
+  .watchlist-form {
+    margin-top: 200px;
+  }
+}
+
+@media (max-width: 311px) {
+  .watchlist-form {
+    margin-top: 250px;
+  }
+}
 
 

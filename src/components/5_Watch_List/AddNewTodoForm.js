@@ -40,19 +40,23 @@ const AddNewTodoForm = ({ onAddTodo, customError }) => {
     return (
         <>
             <form onSubmit={formik.handleSubmit} className="watchlist-form">
-                <input
-                    id="todo"
-                    name="todo"
-                    type="text"
-                    onChange={formik.handleChange}
-                    value={formik.values.todo}
-                    autoComplete="off"
-                    placeholder="Add to watch list"
-                    className="filter-search"
-                />
+                <label>
+                    <input
+                        id="todo"
+                        name="todo"
+                        type="text"
+                        onChange={formik.handleChange}
+                        value={formik.values.todo}
+                        autoComplete="off"
+                        placeholder="Add to watch list"
+                        className="filter-search"
+                    />
+                    {error && <span className="watchlist-form__error">{error}</span>}
+                </label>
+
                 <button type="submit" className="filter-submit">Add</button>
             </form>
-            {error && <span className="watchlist-form__error">{error}</span>}
+
         </>
     )
 };

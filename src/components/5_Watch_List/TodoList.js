@@ -5,7 +5,7 @@ import TodoItem from './TodoItem';
 
 const TodoList = ({ todoItems, onRemoveTodo, onToggleTodoDone, onEditTodo, setCustomError }) => {
     return (
-        <ul>
+        <ul className="watchlist-list">
             {
                 todoItems && // Check if todoItems exists
                 Array.isArray(todoItems) && // Check if it's an array
