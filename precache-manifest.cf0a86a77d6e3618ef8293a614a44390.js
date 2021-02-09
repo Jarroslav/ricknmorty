@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "ac93ddab1b7cb66aaf96",
-    "url": "/ricknmorty/static/css/main.c454d74d.chunk.css"
+    "revision": "46e4a022983e7087fe1f",
+    "url": "/ricknmorty/static/css/main.7e57b36f.chunk.css"
   },
   {
-    "revision": "ac93ddab1b7cb66aaf96",
-    "url": "/ricknmorty/static/js/main.22f890d9.chunk.js"
+    "revision": "46e4a022983e7087fe1f",
+    "url": "/ricknmorty/static/js/main.351e9ec7.chunk.js"
   },
   {
     "revision": "8cee2e5c07d0ad621fec",
@@ -28,7 +28,7 @@ self.__precacheManifest = [
     "url": "/ricknmorty/static/media/rick-and-morty-wallpaper-portal-wallpaper-013.b90bffc4.jpg"
   },
   {
-    "revision": "1b841b8f752d1686f003990c438e64b2",
+    "revision": "a3b5548329169e196a23e84b2b2e9022",
     "url": "/ricknmorty/index.html"
   }
 ];
